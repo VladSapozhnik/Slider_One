@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import "http://fonts.fontstorage.com/import/gilroy.css";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "Gilroy";
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.S-One {
+  width: 1200px;
+  height: 720px;
+  background: rgba(229, 229, 229, 0.6);
+  border-radius: 15px;
+  margin: 100px auto 0 auto;
+}
+.S-One h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0 20px 0;
+}
+.S-One .slider {
+  width: 640px;
+  height: 480px;
+  border: 2px solid #070707;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.S-One .slider .slider-line {
+  width: 1920px;
+  height: 480px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1.2s;
+}
+.S-One .button {
+  display: flex;
+}
+.S-One .button .slider-next {
+  width: 100px;
+  height: 30px;
+  background: #070707;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  border: #070707;
+}
+.S-One .button .slider-prev {
+  width: 100px;
+  height: 30px;
+  background: #070707;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  border: #070707;
+}

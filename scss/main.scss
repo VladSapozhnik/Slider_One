@@ -1,0 +1,71 @@
+﻿@import "http://fonts.fontstorage.com/import/gilroy.css";
+@import "nullstyle.scss";
+
+body {
+    font-family: 'Gilroy';
+    color: #070707;
+    font-size: 18px;
+    line-height: 22px;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.S-One {
+    width: 1200px;
+    height: 720px;
+    background: rgba(229,229,229, 0.6);
+    border-radius: 15px;
+    margin: 100px auto 0 auto;
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        padding: 50px 0 20px 0;
+    }
+
+    .slider {
+        width: 640px;
+        height: 480px;
+        border: 2px solid #070707;
+        margin: 30px auto;
+        overflow: hidden;
+        border-radius: 5px;
+
+        .slider-line {
+            width: 1920px;
+            height: 480px;
+            display: flex;
+            position: relative;
+            left: 0;
+            transition: all ease 1.2s;
+        }
+    }
+
+    .button {
+        display: flex;
+
+        .slider-next {
+            width: 100px;
+            height: 30px;
+            background: #070707;
+            border-radius: 30px;
+            color: #fff;
+            margin: 0 auto;
+            display: block;
+            border: #070707;
+        }
+
+        .slider-prev {
+            width: 100px;
+            height: 30px;
+            background: #070707;
+            border-radius: 30px;
+            color: #fff;
+            margin: 0 auto;
+            display: block;
+            border: #070707;
+        }
+    }
+}
