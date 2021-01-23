@@ -1,1 +1,1 @@
-# Slider_One
+# Slider One
